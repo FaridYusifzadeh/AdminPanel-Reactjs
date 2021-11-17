@@ -13,3 +13,34 @@
   -webkit-box-shadow: 1px 0px 11px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 0px 11px -1px rgba(0, 0, 0, 0.75);
 }
+.featured_title {
+  font-size: 20px;
+}
+.featured_monet_container {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+.featured_money {
+  font-size: 30px;
+  font-weight: 600;
+}
+.featured_money_rate {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.featured_icon {
+  font-size: 14px !important;
+  margin-left: 5px;
+  color: green;
+}
+
+.featured_icon.negative {
+  color: red;
+}
+
+.feature_sub {
+  font-size: 15px;
+  color: gray;
+}
