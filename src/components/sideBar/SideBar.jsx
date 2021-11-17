@@ -8,6 +8,10 @@ import {
   Apartment,
   AttachMoney,
   Assessment,
+  Email,
+  Feedback,
+  Forum,
+  Folder,
 } from "@material-ui/icons";
 export default function SideBar() {
   return (
@@ -67,42 +71,42 @@ export default function SideBar() {
           <h3 className="sidebar_title">Notifications</h3>
 
           <ul className="sidebar_list">
-            {/* < ==== Home  =====> */}
+            {/* < ==== Mail  =====> */}
             <li className="sidebar_list_item ">
-              <LineStyle className="sidebar_icon" />
-              Home
+              <Email className="sidebar_icon" />
+              Mail
             </li>
-            {/* < ====  Analytics =====> */}
+            {/* < ====  Feedback =====> */}
             <li className="sidebar_list_item">
-              <Timeline className="sidebar_icon" />
-              Analytics
+              <Feedback className="sidebar_icon" />
+              Feedback
             </li>
-            {/* < ====  Sales =====> */}
+            {/* < ====  Messages =====> */}
             <li className="sidebar_list_item">
-              <TrendingUp className="sidebar_icon" />
-              Sales
+              <Forum className="sidebar_icon" />
+              Messages
             </li>
           </ul>
         </div>
-        {/*<==================== Side Bar Menu ============== > */}
+        {/*<==================== Staff ============== > */}
         <div className="sidebar_menu">
           <h3 className="sidebar_title">Staff</h3>
 
           <ul className="sidebar_list">
-            {/* < ==== Home  =====> */}
+            {/* < ==== Manage  =====> */}
             <li className="sidebar_list_item ">
-              <LineStyle className="sidebar_icon" />
-              Home
+              <Folder className="sidebar_icon" />
+              Manage
             </li>
             {/* < ====  Analytics =====> */}
             <li className="sidebar_list_item">
               <Timeline className="sidebar_icon" />
               Analytics
             </li>
-            {/* < ====  Sales =====> */}
+            {/* < ====  Reports =====> */}
             <li className="sidebar_list_item">
-              <TrendingUp className="sidebar_icon" />
-              Sales
+              <Assessment className="sidebar_icon" />
+              Reports
             </li>
           </ul>
         </div>
