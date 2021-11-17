@@ -1,6 +1,4 @@
 .container {
   display: flex;
-}
-.others {
-  flex: 6;
+  margin-top: 10px;
 }
