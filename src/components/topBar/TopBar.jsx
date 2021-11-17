@@ -1,4 +1,3 @@
-import React from "react";
 import "./TopBar.css";
 import { NotificationsNone, Language, Settings } from "@material-ui/icons";
 
