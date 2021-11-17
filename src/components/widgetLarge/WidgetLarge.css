@@ -5,3 +5,7 @@
   -moz-box-shadow: 1px 0px 11px -1px rgba(0, 0, 0, 0.75);
   padding: 20px;
 }
+.widget_large_title {
+  font-size: 22px;
+  font-weight: 600;
+}
