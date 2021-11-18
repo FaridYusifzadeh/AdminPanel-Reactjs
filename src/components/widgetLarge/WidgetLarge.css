@@ -9,3 +9,32 @@
   font-size: 22px;
   font-weight: 600;
 }
+.widget_large_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.widget_large_button {
+  padding: 5px 7px;
+  border: none;
+  border-radius: 10px;
+}
+.Approved {
+  background-color: #e5faf2;
+}
+.Declined {
+  background-color: #fff0f1;
+}
+.Pending {
+  background-color: #ebf1fe;
+}
+
+.widget_large_name {
+}
+.widget_large_date {
+}
+.widget_large_amount {
+}
+.widget_large_status {
+}
